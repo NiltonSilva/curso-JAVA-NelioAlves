@@ -1,0 +1,7 @@
+package entities;
+
+public class Rectagle {
+
+	public double width;
+	public double height;
+}

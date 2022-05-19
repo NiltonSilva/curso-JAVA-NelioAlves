@@ -1,0 +1,25 @@
+package application;
+
+import java.util.Scanner;
+
+import entities.Employee;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		Employee emp = new Employee();
+		
+		System.out.print("Enter with name: ");
+		emp.name = input.nextLine();
+		System.out.print("Enter with Gross Salary: ");
+		emp.grossSalary = input.nextDouble();
+		System.out.print("Enter with tax: ");
+		emp.tax = input.nextDouble();
+
+		input.close();
+	}
+
+}
